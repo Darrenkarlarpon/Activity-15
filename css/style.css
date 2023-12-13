@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(151, 204, 200);
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    padding-bottom: 1%;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 20px;
+    background-color: whitesmoke;
+    height: 500px;
+    width: 500px;
+    padding: 1%;
+    margin: auto;
+    border-radius: 2%;
+}
+form1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.gender{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.button{
+    background-color: lightseagreen;
+    padding: .50%;
+    margin: 1%;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+}
+@media (max-width: 480px) {
+    header{
+        text-align: center;
+    }
+    form1, sec, form{
+        width: max-content;
+        height: max-content;
+        flex-direction: column;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    input{
+        background-color: beige;
+        width: max-content;
+        padding: 2%;
+    }
+  
+}
